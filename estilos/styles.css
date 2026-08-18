@@ -17,9 +17,36 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-main {
-    width: 627px;
-    height: 613px;
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h1 span{
+    color: #EBB975;
+}
+
+.frase{
+    font-size: 20px;
+    color: #EBB975;
+    margin-bottom: 50px;
+}
+
+main{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.conteiner {
+    width: 327px;
+    height: 643px;
     background: #F2EFFA;
     display: flex;
     flex-direction: column;
@@ -29,17 +56,18 @@ main {
 }
 
 label{
-    padding: 20px;
+    margin: 10px auto ;
     color: #363055;
     font-weight: 500;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 select{
     width: 224px;
     height: 60px;
-    margin-left: 20px;
+    margin: 5px auto 0;
     padding: 5px;
     border: 3px solid #D5CCE3;
     border-radius: 10px;
@@ -48,8 +76,38 @@ select{
 input{
     width: 224px;
     height: 60px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     padding: 5px;
     border: 3px solid #D5CCE3;
     border-radius: 10px;
+    
+}
+
+button{
+    width: 224px;
+    height: 60px;
+    margin: 5px auto 0;
+    background: #542AB1;
+    border-radius: 10px;
+    color: #F2EFFA;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.value-box{
+     padding: 10px;
+    
+}
+
+section img{
+    width: 46px;
+    height: 46px;
 }
