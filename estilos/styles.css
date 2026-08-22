@@ -147,12 +147,12 @@ section img {
 
 @media (max-width: 760px){
     h1{
-        font-size: 37px;
+        font-size: 35px;
     }
 
     .frase{
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     main{
